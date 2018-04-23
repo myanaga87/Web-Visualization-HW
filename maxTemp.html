@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization</title>
+
+  <!-- CSS Stylesheets with Relative Paths --> 
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+      <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Latitude Analysis</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Plots <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="maxTemp.html">Latitude vs Max Temp</a></li>
+                    <li><a href="humidity.html">Latitude vs Humidity</a></li>
+                    <li><a href="cloudiness.html">Latitude vs Cloudiness</a></li>
+                    <li><a href="windSpeed.html">Latitude vs Wind Speed</a></li>
+                  </ul>
+                </li>
+                <li><a href="comparisons.html">Comparisons</a></li>
+                <li><a href="data.html">Data</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+  </header>
+
+    <div class="container">
+            <br>
+            <br>
+            
+            <div class="row">
+                <div class="col-md-6">
+                <h1 align="center">Latitude vs Max Temperature</h1>                
+                        <img width=500 src="Fig1.png" class="img-responsive" alt="Responsive image">
+                        <p> As expected, the weather becomes significantly warmer as one approaches the equator (0 Degrees Latitude). More interestingly, however, is the fact that the souuthern hemisphere tends to be warmer this time of year than the norther hemisphere. Ths may be due to the tilt of the earth at the time of the year this data was gathered.
+                        </p>
+                        
+                        <p>
+                        </p>
+                </div>
+                <div class="col-md-3">
+                    <h1 align="right">Visualizations</h1>
+                        <p>
+                            <a href="maxTemp.html"><img class="picture" width=280 src="Fig1.png"></a>
+                        </p>
+                        <p>
+                            <a href="cloudiness.html"><img width=280 src="Fig3.png"></a>
+                        </p>
+                </div>
+                <div class="col-md-3">
+                    <h1 style="color:#fff">Visualizations</h1>
+                    <p>
+                        <a href="humidity.html"><img width=280 src="Fig2.png"></a>
+                    </p>
+                    <p>
+                        <a href="windSpeed.html"><img width=280 src="Fig4.png"></a>
+                    </p>
+
+                </div>
+            </div>
+        </div>    
+</body>
+</html>
+            
+
+
+
+
+
+</body>
+
+</html>
